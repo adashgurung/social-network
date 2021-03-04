@@ -1,0 +1,78 @@
+.imageUpload {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+}
+
+.imageUpload__caption {
+  display: flex;
+  /*  border-bottom: 1px solid #eff2f5; */
+  padding: 25px;
+  justify-content: center;
+  width: 100%;
+}
+
+.imageUpload__caption > input {
+  outline-width: 0;
+  color: #282c34;
+  background-color: #d6d6d6;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 15px;
+  width: 270px;
+}
+
+.imageUpload__icon > input {
+  display: none;
+}
+
+.imageUpload__icon:hover > lable > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.imageUpload__icon > lable > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.imageUpload__icon > lable > h3 {
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.imageUpload__icon {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 8px;
+}
+
+.imageUpload__icon:hover {
+  background-color: #dfdfdf;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.imageUpload__button > Button {
+  width: 100px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+.imageUpload__button:hover > Button {
+  background-color: #c4c4c4;
+  color: #2e81f4;
+}
+
+.imageUpload__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

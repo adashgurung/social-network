@@ -1,0 +1,18 @@
+.feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*   object-fit: contain;
+  max-width: 100px; */
+}
+
+/* .feed {
+  flex: 1;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ */
